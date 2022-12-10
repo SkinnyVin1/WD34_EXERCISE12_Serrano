@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html, body{
+    margin: 0;
+    scroll-behavior: smooth;
+    
+}
+/* .navigate{
+    background: rgba(128, 128, 128, 0);
+} */
+
+nav{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    background-color: #FF5F00;
+    font-weight: 600;
+}
+nav .navbar-brand{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+}
+
+.carousel-item{
+    height: 45rem;
+    background: #000000;
+    position: relative;
+    color:white;
+}
+.container-fluid, .container, .vin{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.image-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: .3;
+    box-shadow: 2px 1px 181px 35px rgba(0,0,0,0.94) inset;
+}
+/* .container .desc{
+    padding-right: 45%;
+    font-size: 12px;
+} */
+.container .btn{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.sqau{
+    position: static ;
+    height: 200px;
+    background: #BA6B57;
+
+}
+.dropdown-menu1 li a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown-menu1 li a:hover{
+    color: #FF5F00;
+}
+.dropdown-menu1 li{
+    list-style: none;
+}
+.card:hover{
+    width: 99%;
+    
+}
+
+#yuzu{
+    letter-spacing: 6px;    
+}
+ .us{
+    position: relative;
+ }
+ .reach{
+    background-color: #FF5F00;
+
+ }
+ .icons{
+    text-align: center;
+        font-size: 30px;
+        letter-spacing: 20px;  
+ }
+ #login{
+    font-size: 30px;
+ }
+.modal-header{
+    background-color: #FF5F00;
+}
+.modal-body{
+    background-position: center;
+    background-size: cover;
+}
+.modal{
+    font-family: 'Montserrat', sans-serif;
+}
+.yuzu{
+    letter-spacing: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
